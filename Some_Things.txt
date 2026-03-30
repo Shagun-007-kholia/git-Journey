@@ -5,3 +5,14 @@ A hidden directory named .git is created within that folder. This directory cont
 The directory is now set up for version control, but no files are tracked automatically. You must manually stage and commit files using git add and git commit to start tracking their versions. 
 
 This is the primary method for starting a new Git project from scratch on your local machine, as distinct from using git clone to copy an existing repository from a remote server.
+
+How to use cd in Git Bash
+The Command: Use cd (change directory) followed by the path.
+The Secret Trick: Type cd followed by a space, then drag and drop your folder from File Explorer directly into the Git Bash window. It will automatically type the full path for you!
+Forward Slashes: Unlike CMD which uses backslashes (\), Git Bash (Unix) uses forward slashes (/).
+CMD: cd C:\Users\Name\Projects
+Git Bash: cd /c/Users/Name/Projects
+Helpful Git Bash Shortcuts:
+pwd: Stands for "Print Working Directory." Type this if you ever get lost and want to see exactly which folder you are currently in.
+clear: Clears the screen (the equivalent of cls in CMD) so you have a fresh start.
+Tab Completion: Start typing a folder name and hit the Tab key; Git Bash will finish the name for you!
