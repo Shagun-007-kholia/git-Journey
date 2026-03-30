@@ -1,0 +1,7 @@
+Yes, running git init in a folder on your PC means you have created a new local Git repository. 
+
+Here is what happens when you run the command:
+A hidden directory named .git is created within that folder. This directory contains all the metadata, history, and configuration files necessary for Git to track changes in your project.
+The directory is now set up for version control, but no files are tracked automatically. You must manually stage and commit files using git add and git commit to start tracking their versions. 
+
+This is the primary method for starting a new Git project from scratch on your local machine, as distinct from using git clone to copy an existing repository from a remote server.
